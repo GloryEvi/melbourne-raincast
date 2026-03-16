@@ -11,9 +11,8 @@ st.set_page_config(
 
 import os
 if not os.path.exists('model.pkl'):
-    import subprocess
-    with st.spinner('🔄 Training model for first time... this takes a few minutes'):
-        subprocess.run(['python', 'train_model.py'])
+    with st.spinner('🔄 Training model for first time... this takes a few minutes...'):
+        import train_model
         st.rerun()
 
 st.markdown("""
