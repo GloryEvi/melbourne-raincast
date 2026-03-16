@@ -346,6 +346,46 @@ header[data-testid="stHeader"] p {
 header[data-testid="stHeader"] svg {
     fill: white !important;
     color: white !important;
+}
+
+            /* Mobile & tablet responsive */
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        padding: 1.8rem;
+        gap: 1.5rem;
+        text-align: center;
+    }
+
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .hero-badge {
+        width: 100%;
+    }
+
+    .pill-row {
+        justify-content: center;
+    }
+
+    .main .block-container {
+        padding: 1rem 1rem 3rem 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: 1.6rem;
+    }
+
+    .hero-tag {
+        font-size: 0.65rem;
+    }
+
+    .hero-badge-num {
+        font-size: 1.8rem;
+    }
 }          
 </style>
 """, unsafe_allow_html=True)
