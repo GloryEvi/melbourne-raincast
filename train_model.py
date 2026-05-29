@@ -12,6 +12,7 @@ df = pd.read_csv(url)
 df = df.dropna()
 
 # Fix duplicate column names
+# test
 cols = df.columns.tolist()
 cols[21] = 'RainToday'
 cols[22] = 'RainTomorrow'

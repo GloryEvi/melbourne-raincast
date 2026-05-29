@@ -376,7 +376,7 @@ header[data-testid="stHeader"] svg {
 
 @media (max-width: 480px) {
     .hero-title {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
     }
 
     .hero-tag {
